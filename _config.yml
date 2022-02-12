@@ -1,14 +1,14 @@
 # Site settings
-title: A.P
-baseurl: "/ap"
-url: "https://kssim.github.io"
+title: HomePage
+baseurl: ""
+url: "https://qqqGpe.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: KyeongSeob Sim
+  name: Pengen Gao
   desc: Hello nice to meet you
-  email: ksub0912@gmail.com
+  email: gaope.hb@gmail.com
   selfie: assets/img/profile.jpg
 
 # social
@@ -17,13 +17,13 @@ social:
   behance:
   bitbucket:
   dribbble:
-  facebook: Test
+  facebook: 
   flickr:
-  github: kssim
+  github: "https://github.com/qqqGpe"
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: 
   pinterest:
   reddit:
   soundcloud:
@@ -31,11 +31,11 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter: 
   vimeo:
   wordpress:
   youtube:
-  default_txt: "Follow On"
+  default_txt: 
 
 # Build settings
 markdown: kramdown
@@ -52,7 +52,7 @@ plugins:
 # Permalinks
 permalink: /:year-:month-:day/:title
 paginate_path: "/portfolio/page:num/"
-paginate: 5
+paginate: 6
 exclude:
   - "Gemfile"
   - "Gemfile.lock"

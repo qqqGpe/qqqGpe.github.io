@@ -6,21 +6,26 @@
 html,
 body {
   color: $default-color;
+  font-size: 18px;
   margin: 0;
   padding: 0;
+  // border: 2px dotted rgb(209, 209, 209);
 }
 
 html {
   font-family: $serif-primary;
   font-size: 14px;
 
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     font-size: 16px;
   }
 }
 
 body {
-  -webkit-text-size-adjust: 100%;
+  // box-sizing: content-box;
+  width: 100%;
+  
+  // -webkit-text-size-adjust: 100%;
 }
 
 h1,
@@ -48,7 +53,7 @@ ul {
 }
 
 a {
-  color: #999;
+  // color: #999;
   text-decoration: none;
 }
 

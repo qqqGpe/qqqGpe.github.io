@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  max-width: 1000px;
+  width: 100%;
 }
 
 main,
@@ -9,8 +9,8 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .nav {
@@ -90,3 +90,8 @@ footer {
     font-size: .8rem;
   }
 }
+
+// iframe {
+//   width: 50%;
+//   height: auto;
+// }
